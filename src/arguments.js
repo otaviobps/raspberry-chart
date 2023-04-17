@@ -33,7 +33,7 @@ program
 const param = program.opts()
 
 export default {
-  days: _.defaultTo(90)(param.days),
+  days: _.defaultTo(30)(param.days),
   mins: param.mins,
   hours: param.hours,
   coin: param.coin,
